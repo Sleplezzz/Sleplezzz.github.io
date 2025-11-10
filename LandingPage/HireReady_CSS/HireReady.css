@@ -271,16 +271,6 @@ body {
 }
 /* parte 2*/
 
-
-
-
-
-
-
-
-
-
-
 .caracteristica-item:hover {
     border-left-color: var(--secondary-green);
     padding-left: 2rem;
@@ -560,3 +550,4 @@ body {
     opacity: 0.9;
 }
 
+...
