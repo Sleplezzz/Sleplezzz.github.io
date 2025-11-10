@@ -142,7 +142,7 @@ body {
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, rgba(123, 123, 123, 0.594) 0%, rgba(81, 81, 81, 0.603) 50%), 
-                url('file:///C:/Users/XPS%2013/Downloads/image%209.png') center/cover;
+                url('https://images.law.com/contrib/content/uploads/sites/405/2023/01/AdobeStock_358411735-767x633-2.jpg') center/cover;
     color: var(--text-light);
     padding: 180px 20px 120px;
     text-align: center;
