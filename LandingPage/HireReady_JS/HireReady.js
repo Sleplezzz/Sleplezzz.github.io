@@ -30,7 +30,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
-// parte 2
 // Cambiar estilo del header al hacer scroll
 window.addEventListener('scroll', () => {
     const header = document.querySelector('.header');
