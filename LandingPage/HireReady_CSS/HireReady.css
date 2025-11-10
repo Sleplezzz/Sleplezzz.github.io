@@ -3,7 +3,28 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-green: #2D6A5F;
+    --secondary-green: #3D8275;
+    --accent-green: #4A9C8A;
+    --light-green-bg: #D9E8E5;
+    --text-dark: #2C3E50;
+    --text-light: #FFFFFF;
+    --bg-light: #F5F5F5;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-hover: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
 
+html {
+    scroll-behavior: smooth; /* Suaviza el desplazamiento al hacer clic en enlaces */
+}
+
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
 }
 
 
