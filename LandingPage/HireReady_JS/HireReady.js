@@ -19,7 +19,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             window.scrollTo({
                 top: offsetPosition,
                 behavior: 'smooth'
-            });
+            })
         }
     });
 });
