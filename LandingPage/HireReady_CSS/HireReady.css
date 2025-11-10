@@ -17,7 +17,6 @@
     --shadow-hover: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
-
 html {
     scroll-behavior: smooth; /* Suaviza el desplazamiento al hacer clic en enlaces */
 }
