@@ -4,6 +4,13 @@ const navMenu = document.getElementById('navMenu');
 menuToggle.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 });
+s
+f
+j
+g
+i
+
+
 
 // Cerrar menú al hacer click en un enlace
 const navLinks = document.querySelectorAll('.nav-menu a');
