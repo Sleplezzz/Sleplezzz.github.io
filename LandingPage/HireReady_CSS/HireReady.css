@@ -1,6 +1,10 @@
 /* parte 1*/
 /* Reset y estilos base */
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     --primary-green: #2D6A5F;
     --secondary-green: #3D8275;
@@ -245,5 +249,24 @@ body {
     grid-template-columns: 1fr 1.2fr;
     gap: 5rem;
     align-items: center;
+}
+
+.caracteristicas-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caracteristicas-image img {
+    width: 100%;
+    max-width: 450px;
+    filter: drop-shadow(0 10px 30px rgba(45, 106, 95, 0.15));
+}
+
+.caracteristica-item {
+    margin-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    border-left: 3px solid var(--accent-green);
+    transition: all 0.3s ease;
 }
 /* parte 2*/
