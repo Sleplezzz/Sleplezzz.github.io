@@ -1,10 +1,6 @@
 /* parte 1*/
 /* Reset y estilos base */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 :root {
     --primary-green: #2D6A5F;
     --secondary-green: #3D8275;
